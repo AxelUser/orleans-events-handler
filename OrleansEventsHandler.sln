@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.Storage", "OrleansEventsHandler.Infrastructure.Storage\OrleansEventsHandler.Infrastructure.Storage.csproj", "{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.GrainInterfaces", "OrleansEventsHandler.Infrastructure.GrainInterfaces\OrleansEventsHandler.Infrastructure.GrainInterfaces.csproj", "{0B34D698-D3D6-4E44-846A-E76C6F58919E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +36,9 @@ Global
 		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

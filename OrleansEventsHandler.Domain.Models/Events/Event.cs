@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace GrainInterfaces.Events
+namespace OrleansEventsHandler.Domain.Models.Events
 {
     public class Event
     {

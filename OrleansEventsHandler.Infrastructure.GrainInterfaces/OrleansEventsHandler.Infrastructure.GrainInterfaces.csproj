@@ -5,15 +5,15 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\OrleansEventsHandler.Domain.Models\OrleansEventsHandler.Domain.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Microsoft.Orleans.CodeGenerator.MSBuild" Version="3.4.1">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.4.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\OrleansEventsHandler.Infrastructure.GrainInterfaces\OrleansEventsHandler.Infrastructure.GrainInterfaces.csproj" />
     </ItemGroup>
 
 </Project>

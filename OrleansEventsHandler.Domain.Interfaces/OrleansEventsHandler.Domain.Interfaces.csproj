@@ -4,4 +4,8 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OrleansEventsHandler.Domain.Models\OrleansEventsHandler.Domain.Models.csproj" />
+    </ItemGroup>
+
 </Project>

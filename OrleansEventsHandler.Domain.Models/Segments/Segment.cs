@@ -1,6 +1,6 @@
 using System;
 
-namespace GrainInterfaces.Segments
+namespace OrleansEventsHandler.Domain.Models.Segments
 {
     public class Segment
     {

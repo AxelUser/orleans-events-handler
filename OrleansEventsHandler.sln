@@ -1,12 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.HostService", "OrleansEventsHandler.HostService\OrleansEventsHandler.HostService.csproj", "{A4BF4851-A3C2-45E9-8DCB-DAA1613C7063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.SiloHost", "OrleansEventsHandler.SiloHost\OrleansEventsHandler.SiloHost.csproj", "{A4BF4851-A3C2-45E9-8DCB-DAA1613C7063}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Domain.Models", "OrleansEventsHandler.Domain.Models\OrleansEventsHandler.Domain.Models.csproj", "{CC7ED545-198C-402D-9D22-BF3E2A0FE462}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Domain.Interfaces", "OrleansEventsHandler.Domain.Interfaces\OrleansEventsHandler.Domain.Interfaces.csproj", "{9A3ABC30-9AD9-4C8D-8D38-043536793D4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.Grains", "OrleansEventsHandler.Infrastructure.Grains\OrleansEventsHandler.Infrastructure.Grains.csproj", "{C34A65C5-88A6-45A8-8F11-DC473584BE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.Storage", "OrleansEventsHandler.Infrastructure.Storage\OrleansEventsHandler.Infrastructure.Storage.csproj", "{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +30,9 @@ Global
 		{C34A65C5-88A6-45A8-8F11-DC473584BE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34A65C5-88A6-45A8-8F11-DC473584BE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34A65C5-88A6-45A8-8F11-DC473584BE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

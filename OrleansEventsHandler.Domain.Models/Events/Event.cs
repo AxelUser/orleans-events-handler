@@ -7,9 +7,9 @@ namespace OrleansEventsHandler.Domain.Models.Events
     {
         public Guid AccountId { get; set; }
 
-        public Guid PersonId { get; set; }
+        public long PersonId { get; set; }
 
-        public Guid DefinitionId { get; set; }
+        public string DefinitionId { get; set; }
 
         public IDictionary<string, string> Payload { get; set; }
 

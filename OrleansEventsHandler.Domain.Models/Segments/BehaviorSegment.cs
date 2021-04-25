@@ -2,7 +2,7 @@ using System;
 
 namespace OrleansEventsHandler.Domain.Models.Segments
 {
-    public class Segment
+    public class BehaviorSegment
     {
         public Guid SegmentId { get; set; }
         

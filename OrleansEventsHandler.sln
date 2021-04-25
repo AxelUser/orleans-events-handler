@@ -6,11 +6,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Domain.Interfaces", "OrleansEventsHandler.Domain.Interfaces\OrleansEventsHandler.Domain.Interfaces.csproj", "{9A3ABC30-9AD9-4C8D-8D38-043536793D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.Grains", "OrleansEventsHandler.Infrastructure.Grains\OrleansEventsHandler.Infrastructure.Grains.csproj", "{C34A65C5-88A6-45A8-8F11-DC473584BE36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Actors.Grains", "OrleansEventsHandler.Actors.Grains\OrleansEventsHandler.Actors.Grains.csproj", "{C34A65C5-88A6-45A8-8F11-DC473584BE36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.Storage", "OrleansEventsHandler.Infrastructure.Storage\OrleansEventsHandler.Infrastructure.Storage.csproj", "{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Infrastructure.GrainInterfaces", "OrleansEventsHandler.Infrastructure.GrainInterfaces\OrleansEventsHandler.Infrastructure.GrainInterfaces.csproj", "{0B34D698-D3D6-4E44-846A-E76C6F58919E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Actors.GrainInterfaces", "OrleansEventsHandler.Actors.GrainInterfaces\OrleansEventsHandler.Actors.GrainInterfaces.csproj", "{0B34D698-D3D6-4E44-846A-E76C6F58919E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventsHandler.Domain.Services", "OrleansEventsHandler.Domain.Services\OrleansEventsHandler.Domain.Services.csproj", "{A27F0449-2998-4255-84FF-FA2FABCF8C2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{03448C78-F42A-40F4-A772-D18A350B66BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B455AEAA-0CE4-421D-93BD-B0A3AE59FD8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actors", "Actors", "{54B958DB-DED0-461B-9BC9-13CE6C945930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +48,17 @@ Global
 		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B34D698-D3D6-4E44-846A-E76C6F58919E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27F0449-2998-4255-84FF-FA2FABCF8C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27F0449-2998-4255-84FF-FA2FABCF8C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27F0449-2998-4255-84FF-FA2FABCF8C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27F0449-2998-4255-84FF-FA2FABCF8C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A3ABC30-9AD9-4C8D-8D38-043536793D4E} = {03448C78-F42A-40F4-A772-D18A350B66BF}
+		{CC7ED545-198C-402D-9D22-BF3E2A0FE462} = {03448C78-F42A-40F4-A772-D18A350B66BF}
+		{A27F0449-2998-4255-84FF-FA2FABCF8C2A} = {03448C78-F42A-40F4-A772-D18A350B66BF}
+		{AB5C290F-F4B3-4B3F-A909-1BEA387C6F34} = {B455AEAA-0CE4-421D-93BD-B0A3AE59FD8B}
+		{0B34D698-D3D6-4E44-846A-E76C6F58919E} = {54B958DB-DED0-461B-9BC9-13CE6C945930}
+		{C34A65C5-88A6-45A8-8F11-DC473584BE36} = {54B958DB-DED0-461B-9BC9-13CE6C945930}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OrleansEventsHandler.Domain.Interfaces\OrleansEventsHandler.Domain.Interfaces.csproj" />
+      <ProjectReference Include="..\OrleansEventsHandler.Domain.Models\OrleansEventsHandler.Domain.Models.csproj" />
+    </ItemGroup>
+
+</Project>

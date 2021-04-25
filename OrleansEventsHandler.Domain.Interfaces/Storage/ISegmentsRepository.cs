@@ -7,10 +7,10 @@ namespace OrleansEventsHandler.Domain.Interfaces.Storage
 {
     public interface ISegmentsRepository
     {
-        Task AddAsync(Segment segments, CancellationToken token);
+        Task AddAsync(BehaviorSegment behaviorSegments, CancellationToken token);
 
         Task DeleteAsync(Guid segmentId, CancellationToken token);
 
-        Task<Segment> GetAsync(Guid segmentId, CancellationToken token);
+        Task<BehaviorSegment> GetAsync(Guid segmentId, CancellationToken token);
     }
 }
